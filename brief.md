@@ -10,15 +10,14 @@ Finally, I believe that service speed is important because citizens expect quick
 ## Software
 Semantic Versioning (SemVer) is a version numbering system that follows the MAJOR.MINOR.PATCH format. The MAJOR number increases when a software update introduces incompatible API changes. MINOR increases when new functionality is added without breaking compatibility, while PATCH increases for backward-compatible bug fixes. In a government AI assistant, this system helps developers communicate the impact of updates. For example, adding a compatible service feature may increase MINOR, while fixing an existing software bug may increase PATCH.
 
-Source: https://semver.org/spec/v2.0.0.html
+Resource: Semantic Versioning 2.0.0 - https://semver.org/spec/v2.0.0.html
 ## AI
 Retrieval-Augmented Generation (RAG) combines information retrieval with a generative language model. It allows the model to use relevant information retrieved from an external knowledge source when producing an answer. In a government AI assistant, this approach could help answer citizens' questions using information from official government documents rather than relying only on knowledge stored in the model's parameters. RAG can improve the factual grounding of responses, although the accuracy of retrieved information and generated answers still requires verification.
 
-Source: https://arxiv.org/abs/2005.11401
+Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - https://arxiv.org/abs/2005.11401
 ## Mobile
-App Transport Security (ATS) is an Apple security feature that establishes requirements for secure network connections in applications. Its configuration is controlled through the NSAppTransportSecurity property in an application's information property list. ATS helps protect data transmitted between an iOS application and a server by enforcing secure connection requirements. In a government AI assistant, this is important when citizens send requests or personal information through a mobile application. Developers should carefully evaluate exceptions because they may reduce connection security.
-
-Source: https://developer.apple.com/documentation/bundleresources/information-property-list/nsapptransportsecurity
+App Transport Security (ATS) is an Apple security feature that enforces secure network connections in applications. It is configured through the NSAppTransportSecurity property in an app's information property list. By default, ATS blocks insecure HTTP connections covered by its policy unless an appropriate exception is configured. For a government AI assistant, ATS helps protect citizens' information when a mobile application communicates with its server. Developers should carefully review exceptions because they may weaken connection security.
+Resource: NSAppTransportSecurity - https://developer.apple.com/documentation/bundleresources/information-property-list/nsapptransportsecurity
 ## Networking
 IPv4 and IPv6 are Internet Protocol versions used to identify devices and support network communication. IPv4 uses 32-bit addresses written in decimal notation, while IPv6 uses 128-bit addresses written in hexadecimal notation. IPv6 provides a much larger address space to support the growing number of connected devices. For a government AI assistant, supporting both versions can help citizens access services through different networks. This is important during the transition from IPv4 to IPv6.
 
