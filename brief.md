@@ -32,5 +32,6 @@ Anonymization and pseudonymization are two methods used to protect personal data
 
 Resource: Anonymisation / pseudonymisation - https://www.edpb.europa.eu/topics/ai-and-technology/anonymisation-pseudonymisation_en
 ## Misconception in My Track
-
+A common misconception in cybersecurity is that prompt injection attacks only happen when users directly send malicious instructions to an AI assistant. In reality, prompt injection can be direct or indirect. Direct attacks involve malicious instructions submitted through user prompts, while indirect attacks involve instructions hidden in external content, such as websites, documents, or emails. For a government AI assistant, this distinction is important because even retrieved documents may contain malicious instructions. Therefore, the assistant should treat external content as untrusted and apply security controls to reduce the risk of manipulation.
 ## Open Question
+How can a government AI assistant effectively prevent direct and indirect prompt injection attacks while continuing to provide accurate, helpful, and timely responses to citizens?
