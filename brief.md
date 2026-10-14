@@ -20,11 +20,17 @@ App Transport Security (ATS) is an Apple security feature that establishes requi
 
 Source: https://developer.apple.com/documentation/bundleresources/information-property-list/nsapptransportsecurity
 ## Networking
+IPv4 and IPv6 are Internet Protocol versions used to identify devices and support network communication. IPv4 uses 32-bit addresses written in decimal notation, while IPv6 uses 128-bit addresses written in hexadecimal notation. IPv6 provides a much larger address space to support the growing number of connected devices. For a government AI assistant, supporting both versions can help citizens access services through different networks. This is important during the transition from IPv4 to IPv6.
 
+Resource: Difference Between IPv4 and IPv6 - https://www.geeksforgeeks.org/computer-networks/differences-between-ipv4-and-ipv6/
 ## Cybersecurity
+Prompt injection is an attack in which malicious instructions attempt to manipulate an AI assistant's behavior. Direct prompt injection occurs when an attacker submits harmful instructions through a user prompt. Indirect prompt injection occurs when malicious instructions are embedded in external content, such as documents or websites. In a government AI assistant, these attacks could cause misleading responses or unauthorized actions. Two defenses are treating retrieved content as untrusted input and applying strict access controls to limit the assistant's permissions.
 
+Resource: Prompt Injection - Microsoft Learn - https://learn.microsoft.com/en-us/security/zero-trust/catalog-ai-attack-techniques/prompt-injection
 ## Data
+Anonymization and pseudonymization are two methods used to protect personal data. Anonymization makes information no longer identifiable or linkable to an individual, while pseudonymization reduces direct identification but allows re-identification using additional information. Unlike anonymized data, pseudonymized data remains personal data under data protection law. In a government AI assistant, anonymization can help protect citizens' identities when analyzing service usage, while pseudonymization can reduce privacy risks when processing records that may still need to be linked to individuals.
 
+Resource: Anonymisation / pseudonymisation - https://www.edpb.europa.eu/topics/ai-and-technology/anonymisation-pseudonymisation_en
 ## Misconception in My Track
 
 ## Open Question
