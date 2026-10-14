@@ -17,6 +17,7 @@ Retrieval-Augmented Generation (RAG) combines information retrieval with a gener
 Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - https://arxiv.org/abs/2005.11401
 ## Mobile
 App Transport Security (ATS) is an Apple security feature that enforces secure network connections in applications. It is configured through the NSAppTransportSecurity property in an app's information property list. By default, ATS blocks insecure HTTP connections covered by its policy unless an appropriate exception is configured. For a government AI assistant, ATS helps protect citizens' information when a mobile application communicates with its server. Developers should carefully review exceptions because they may weaken connection security.
+
 Resource: NSAppTransportSecurity - https://developer.apple.com/documentation/bundleresources/information-property-list/nsapptransportsecurity
 ## Networking
 IPv4 and IPv6 are Internet Protocol versions used to identify devices and support network communication. IPv4 uses 32-bit addresses written in decimal notation, while IPv6 uses 128-bit addresses written in hexadecimal notation. IPv6 provides a much larger address space to support the growing number of connected devices. For a government AI assistant, supporting both versions can help citizens access services through different networks. This is important during the transition from IPv4 to IPv6.
@@ -32,5 +33,6 @@ Anonymization and pseudonymization are two methods used to protect personal data
 Resource: Anonymisation / pseudonymisation - https://www.edpb.europa.eu/topics/ai-and-technology/anonymisation-pseudonymisation_en
 ## Misconception in My Track
 A common misconception in cybersecurity is that prompt injection attacks only happen when users directly send malicious instructions to an AI assistant. In reality, prompt injection can be direct or indirect. Direct attacks involve malicious instructions submitted through user prompts, while indirect attacks involve instructions hidden in external content, such as websites, documents, or emails. For a government AI assistant, this distinction is important because even retrieved documents may contain malicious instructions. Therefore, the assistant should treat external content as untrusted and apply security controls to reduce the risk of manipulation.
+This distinction is explained in the Microsoft Learn resource under the heading "Why this technique is effective".
 ## Open Question
 How can a government AI assistant effectively prevent direct and indirect prompt injection attacks while continuing to provide accurate, helpful, and timely responses to citizens?
